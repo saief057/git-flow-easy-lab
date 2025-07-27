@@ -4,3 +4,11 @@ body {
   padding: 2rem;
   background: #f6f8fa;
 }
+body[data-theme="dark"] {
+  background-color: #111;
+  color: #ffffff; /* brighter text */
+}
+
+body[data-theme="dark"] a {
+  color: #00ffff; /* more contrast */
+}
